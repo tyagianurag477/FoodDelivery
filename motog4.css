@@ -1,0 +1,70 @@
+#navbar
+{
+    flex-direction: column;
+    left: 23px;
+}
+#home::before
+{
+    height: 80%;
+    width: 114%;
+}
+#home p{
+    font-size: 15px;
+}
+
+#services
+{
+    margin-top: 30px;
+    margin-left: 41px;
+    width: 100%;
+}
+#s1
+{
+    flex-direction: column;
+}
+#s1 .box
+{
+    margin: 10px 39px;
+    padding:10px;
+}
+#client-section
+{
+    margin:5px 26px;
+    width:100%;
+}
+#clients
+{
+    flex-direction: column;
+}
+#clients::before
+{
+    height: 71%;
+    width: 100%;
+}
+#c-form::before
+{
+    height: 57%;
+}
+#contact-section
+{
+    margin:5px 26px;
+    width:100%;
+}
+.contact-item {
+    align-items: flex-start;
+    margin: 5px 0px;
+    padding: 5px 0px;
+}
+#c-form input {
+    width: 203%;
+}
+#c-form textarea {
+    width: 142%;
+}
+#foot {
+    margin: 23px 30px;
+    padding: 17px 28px;
+    width: 84%;
+    text-align: center;
+    
+}

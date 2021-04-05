@@ -1,0 +1,32 @@
+#navbar
+{
+    flex-direction: column;
+}
+#home::before
+{
+    height: 74%;
+}
+#home p{
+    font-size: 15px;
+}
+#s1
+{
+    flex-direction: column;
+}
+#s1 .box
+{
+    margin: 10px 39px;
+    padding:10px;
+}
+#c-form::before
+{
+    height: 58%;
+}
+.c-input
+{
+    width: 92%;
+}
+#c-form textarea {
+    width: 667%;
+    font-size: 1.3rem;
+}

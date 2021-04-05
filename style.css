@@ -1,0 +1,226 @@
+*
+{
+    margin:0;
+    padding: 0;
+}
+:root
+{
+    --navbar-height:60px;
+}
+#navbar
+{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0;
+}
+
+#logo
+{
+    height: 60px;
+    width: 60px;
+    margin: 8px;
+    padding: 18px;
+}
+#logo img
+{
+    height: 60px;
+    width: 60px;
+}
+#navbar ul{
+    display: flex;
+
+}
+#navbar::before
+{
+    content: "";
+    background-color:black;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    z-index: -1;
+    opacity: 0.4;
+}
+#navbar ul li{
+    list-style-type: none;
+    font-size:1.3rem;
+}
+#navbar ul li a{
+    display: block;
+    text-decoration: none;
+    padding:3px 20px;
+    color:white;
+    border-radius: 8px;
+}
+#navbar ul li a:hover{
+    color:black;
+    background-color: white;
+   
+}
+#home
+{
+    display: flex;
+    flex-direction: column;
+    padding:3px 20px;
+    justify-content: center;
+    align-items: center;
+    height: 350px;  
+    top: 0;
+    left:0;  
+}
+#home::before
+{
+    content: "";
+    background:url(./img/food-1932466_1280.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 80%;
+    position:absolute;
+    z-index: -1;
+    opacity: 0.9;
+    top: 0;
+    left:0;
+}
+.h-primary
+{
+    font-size: 2.8rem;
+    padding:10px;
+}
+#home h1
+{
+    color:white;
+    text-align: center;
+}
+#home p{
+    font-family: 'Barlow Condensed', sans-serif;
+    color:white;
+}
+
+#btn
+{
+    padding:5px 20px;
+    color:white;
+    background-color:#e583b9;
+    margin:20px;
+    font-size: 1.5rem;
+    border-radius: 11px;
+    cursor:pointer;
+}
+.center
+{
+    text-align: center;
+}
+.h-secondary
+{
+    font-size: 2rem;
+    padding:10px;
+}
+#services
+{
+    margin-top: 72px ;
+}
+#s1
+{
+    display: flex;
+}
+#s1 .box
+{
+    border:2px solid brown;
+    margin: 30px;
+    padding:30px;
+    border-radius: 23px;
+    background-color:#fffcfb;
+}
+#s1 .box img
+{
+    height:150px;
+    width: 150px;
+    display: block;
+    margin:auto;
+}
+#s1 p{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 1000;
+}
+#clients
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.client-item
+{
+    /* margin: 20px; */
+    padding: 12px;
+    /* border-radius: 23px; */
+}
+.client-item img{
+    height: 80px;
+}
+#clients::before
+{
+    content: "";
+    background: url("img/logo.PNG") no-repeat center center/cover;
+    height: 22%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.7;
+}
+#c-form::before
+{
+    content: "";
+    background: url("img/contactbg.PNG") no-repeat center center/cover;
+    position: absolute;
+    height: 60%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+#contact-section
+{
+    margin: 15px;
+    padding: 3px;
+}
+#c-form
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.contact-item
+{
+      display: flex;
+      margin: 5px 40px; 
+     padding: 5px 10px;
+}
+#c-form input
+{
+    width: 100%;
+    font-size: 1.3rem;
+}
+#c-form form{
+    width: 70%;
+}
+.c-label
+{
+    display:block;
+    width: 38%;
+}
+.c-input
+{
+    display:block;
+    width: 38%;
+}
+#c-form textarea{
+    width:122%;
+    font-size: 1.3rem;
+}
+#foot
+{
+    background-color:#5cccee;
+    color: white;
+    font-size: 1.3rem;
+    margin-top: 30px;
+}
