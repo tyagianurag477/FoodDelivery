@@ -1,0 +1,9 @@
+$ git config --global user.name tyagianurag477
+$ git config --global user.email "anuragtyagi477@github.com"
+$ touch .gitignore
+$ git init
+$ git add .
+$ git commit -m "Initial commit"
+$ git status
+$ git remote add origin (ssh githublink)
+$ git push origin master
