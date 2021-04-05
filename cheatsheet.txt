@@ -1,9 +1,12 @@
-$ git config --global user.name tyagianurag477
-$ git config --global user.email "anuragtyagi477@github.com"
-$ touch .gitignore
-$ git init
-$ git add .
-$ git commit -m "Initial commit"
-$ git status
-$ git remote add origin (ssh githublink)
-$ git push origin master
+1.$ git config --global user.name tyagianurag477
+2.$ git config --global user.email "anuragtyagi477@github.com"
+3.$ touch .gitignore   ------->        (this will generate a file where we store the files/folders which we don't want to reposit)
+4.$ git init
+5.$ git add .
+6.$ git commit -m "Initial commit"
+7.$ git status ----->  (not necessary can be skipped)
+8.$ git remote add origin (ssh githublink)     ----->(used to link the existing folder to githublink) 
+9.$ git push origin master
+
+
+while adding new file to existing repository start from step 5 and exclude step no 8
